@@ -1,10 +1,10 @@
-function TopMenuElement(bind, args) {
+function NotificationElement(bind, args) {
     this.imgUrl = args.imgUrl;
     this.notificationNumber = args.notificationNumber;
 }
 
-TopMenuElement.prototype.topMenuClick = function () {
+NotificationElement.prototype.topMenuClick = function () {
     alert(`You have ${this.notificationNumber} notifications`);
 }
 
-module.exports = TopMenuElement;
+module.exports = NotificationElement;

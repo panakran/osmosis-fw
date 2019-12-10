@@ -7,8 +7,8 @@ function PageComponent(bind,args) {
   // fs.mix is the most basic way to nest components
   // fs.mix(this,'ui/example/ExampleA');
   // fs.mix(this,'ui/ExampleB');
-  fs.mix(this,'ui/leftmenu/LeftMenu');
-  fs.mix(this,'ui/topmenu/TopMenu');
+  fs.mix(this,'ui/sidebar/SideBar');
+  fs.mix(this,'ui/navbar/NavBar');
   fs.mix(this,'ui/Content');
 
   // Usage: fs.mixAppend(domElementReference, ComponentPath, Arguments)

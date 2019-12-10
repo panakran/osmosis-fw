@@ -1,4 +1,4 @@
-function LeftMenu(bind, args) {
+function SideBar(bind, args) {
   bind(this);
 
   let model = [
@@ -11,12 +11,12 @@ function LeftMenu(bind, args) {
     { imgUrl: '/dsds', text: 'Help' },
   ];
 
-  model.forEach(elem => fs.mixAppend($('.left-menu-element', this.dom), 'ui/leftmenu/LeftMenuElement', elem));
+  model.forEach(elem => fs.mixAppend($('.left-menu-element', this.dom), 'ui/sidebar/SideBarElement', elem));
 }
 
 
-LeftMenu.prototype.clickMenu = function () {
+SideBar.prototype.clickMenu = function () {
   alert("Menu button clicked");
 }
 
-module.exports = LeftMenu;
+module.exports = SideBar;
