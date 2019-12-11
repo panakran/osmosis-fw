@@ -2,7 +2,7 @@ function SideBar(bind, args) {
   bind(this);
 
   let model = [
-    { imgUrl: 'scripts/ui/left-menu-1.png', text: 'Library' },
+    { imgUrl: 'https://knockoutjs.com/img/ko-logo.png', text: 'Library' },
     { imgUrl: '/dsds', text: 'Step 1 Schedule' },
     { imgUrl: '/dsds', text: 'Quiz Builder' },
     { imgUrl: '/dsds', text: 'Team Workspace' },
@@ -10,7 +10,6 @@ function SideBar(bind, args) {
     { imgUrl: '/dsds', text: 'Add Tools' },
     { imgUrl: '/dsds', text: 'Help' },
   ];
-
   model.forEach(elem => fs.mixAppend($('.left-menu-element', this.dom), 'ui/sidebar/SideBarElement', elem));
 }
 
