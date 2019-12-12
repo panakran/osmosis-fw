@@ -1,7 +1,9 @@
 .ui-addtoquizbar-AddToQuizBar
-  div
-    p(data-bind='text: flashcards')
+  div(class="leftquizbar")
+    span(data-bind='text: flashcards', class="qnumber")
+    span FLASHCARDS
     hr
-    p(data-bind='text: questions')
-  div
+    span(data-bind='text: questions', class="qnumber") 
+    span QUESTIONS
+  div(class="rightquizbar")
     p Add to Quiz Queue

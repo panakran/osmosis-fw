@@ -1,6 +1,6 @@
 function AddToQuizBar(bind, args) {
-    this.flashcards = args.flashcards + " FLASHCARDS";
-    this.questions = args.questions + " QUESTIONS";
+    this.flashcards = args.flashcards;
+    this.questions = args.questions;
 }
 
 module.exports = AddToQuizBar;

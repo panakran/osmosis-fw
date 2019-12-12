@@ -2,9 +2,9 @@ function NavBar(bind, args) {
     bind(this);
 
     let model = [
-        { imgUrl: '/dsds', notificationNumber: 73 },
-        { imgUrl: '/dsds', notificationNumber: 0 },
-        { imgUrl: '/dsds', notificationNumber: 97 }
+        { iconClass: 'fi-flashcards fi', notificationNumber: 73 },
+        { iconClass: 'fi-doc-search fi', notificationNumber: 0 },
+        { iconClass: 'fi-rep-clock fi', notificationNumber: 97 }
     ];
 
     model.forEach(e => fs.mixAppend($('.top-menu-element', this.dom), 'ui/notificationelement/NotificationElement', e));

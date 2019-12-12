@@ -1,5 +1,5 @@
 function NotificationElement(bind, args) {
-    this.imgUrl = args.imgUrl;
+    this.iconClass = args.iconClass;
     this.notificationNumber = args.notificationNumber;
 }
 

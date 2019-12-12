@@ -1,4 +1,4 @@
 .ui-notificationelement-NotificationElement(data-bind='click: topMenuClick').lfloat
   a(class='notification')
-    span Inbox
+    span(data-bind='css: iconClass')
     span(class="badge", data-bind='text: notificationNumber')

@@ -1,4 +1,3 @@
 .ui-sidebar-SideBarElement(data-bind='click: leftMenuClick')
-  img(data-bind="attr:{ src: imgUrl}", class="dblock" )
-  //- img(src='', class="dblock" )
-  a(data-bind='text: text')
+  a(data-bind='css: iconClass')
+  p(data-bind='text: text')

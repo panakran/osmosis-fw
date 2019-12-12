@@ -1,6 +1,6 @@
 
 function SideBarElement(bind, args) {
-    this.imgUrl = args.imgUrl;
+    this.iconClass = args.iconClass;
     this.text = args.text;
 }
 
