@@ -1,5 +1,7 @@
-.ui-nextbar-MemoryAnchorElement
-  img(data-bind='src: url')
-  h4(data-bind='text: title')
-  p(data-bind='text: author')
-  img(data-bind='src: url')
+.ui-nextbar-MemoryAnchorElement.dflex
+  div.flexs
+    img(width="200", height="100", data-bind='attr:{src: thumbnail}')
+  div.flexs
+    h4(data-bind='text: title')
+    img(width="30", height="20", data-bind='attr:{src: icon}').lfloat
+    p(data-bind='text: author')

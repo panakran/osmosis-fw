@@ -1,8 +1,8 @@
 function NextBarElement(bind, args) {
     this.thumbnail = args.thumbnail;
-    this.url = args.url;
     this.title = args.title;
     this.author = args.author;
+    this.icon = args.icon;
 }
 
 

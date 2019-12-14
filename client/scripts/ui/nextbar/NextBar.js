@@ -2,9 +2,18 @@ function NextBar(bind, args) {
     bind(this);
 
     let model = [
-        { thumbnail: '/dsds', url: '/ds', title: 'Electrocardiography Handwritten', author: 'Youtube' },
-        { thumbnail: '/dsds', url: '/ds', title: 'Electrocardiography Khan Academy', author: 'Youtube' },
-        { thumbnail: '/dsds', url: '/ds', title: '12 Lead Contiguous Leads-Lateral Wall MI', author: 'Picmonic' }
+        {
+            thumbnail: 'https://d16qt3wv6xm098.cloudfront.net/5s6MQgmrSD_2Q3GjhxabpBgGRwuSghw6/_.jpg',
+            title: 'Electrocardiography Handwritten',
+            author: 'Youtube',
+            icon: 'https://blog.hootsuite.com/wp-content/uploads/2018/09/yt_icon_rgb-310x219.png'
+        },
+        {
+            thumbnail: 'https://d16qt3wv6xm098.cloudfront.net/uwKvi18vTIiR2orcrbtJaM7FS3uxCfR4/_.jpg',
+            title: 'Electrocardiography Khan Academy',
+            author: 'Youtube',
+            icon: 'https://blog.hootsuite.com/wp-content/uploads/2018/09/yt_icon_rgb-310x219.png'
+        },
     ]
     model.forEach(e => fs.mixAppend($('.nextbar-element', this.dom), 'ui/nextbar/MemoryAnchorElement', e))
 }
