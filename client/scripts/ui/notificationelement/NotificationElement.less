@@ -1,19 +1,37 @@
 .notification {
     color: #1e6dcc;
     text-decoration: none;
-    padding: 15px 25px;
+    padding: 15px 20px;
     position: relative;
     display: inline-block;
     border-radius: 2px;
+    cursor: pointer;    
   }
-  
-  .notification .badge {
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    padding: 3px 3px;
-    border-radius: 50%;
-    background-color: red;
-    color: white;
-    font-size:12px;
-  }
+.disabled{
+  text-decoration: none;
+  padding: 15px 25px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  color: grey;
+  cursor: auto;    
+}
+
+.nobadge{
+  display: none;
+}
+
+.badge {
+  position: absolute;
+  top: 5px;
+  right: 13px;
+  padding: 3px 3px;
+  border-radius: 50%;
+  background-color: #ff003b;
+  color: white;
+  font-size:10px;
+}
+
+.profileimage{
+
+}

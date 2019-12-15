@@ -1,9 +1,10 @@
-.ui-addtoquizbar-AddToQuizBar
-  div(class="leftquizbar")
-    span(data-bind='text: flashcards', class="qnumber")
-    span FLASHCARDS
-    hr
-    span(data-bind='text: questions', class="qnumber") 
-    span QUESTIONS
-  div(class="rightquizbar")
+.ui-addtoquizbar-AddToQuizBar.mtl
+  div.leftquizbar.phm
+    div.upperLeft
+      span(data-bind='text: flashcards').qnumber
+      span(data-bind='text: flashcardsText')
+    div.upperRight
+      span(data-bind='text: questions').qnumber 
+      span(data-bind='text: questionsText')
+  div.rightquizbar
     p Add to Quiz Queue

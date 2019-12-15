@@ -1,5 +1,7 @@
-.ui-navbar-NavBar
-  input(type="text", placeholder="Search for videos, flashcards and questions", data-bind='click: clickSearch').lfloat
-  a(class="fi-doc-search fi").lfloat
-  img(width="30", height="30", src="https://p7.hiclipart.com/preview/981/645/182/united-states-computer-icons-desktop-wallpaper-clip-art-free-high-quality-person-icon.jpg").rfloat
-  .top-menu-element(class="notification").rfloat
+.ui-navbar-NavBar.dflex
+  div.navLeft
+    input(type="text", placeholder="Search for videos, flashcards and questions")
+    img(data-bind='click: clickSearch', src="https://www.clipartwiki.com/clipimg/full/233-2334079_svg-png-free-download-onlinewebfonts-com-comments-.png", width="15", height="15").iconstyle
+  div.navRight.dflex
+    .top-menu-element(class="notification")
+    img(src="https://miro.medium.com/max/1536/1*o-UCEnQ3VRCrHjI8cx4JBQ.jpeg").notificationicon

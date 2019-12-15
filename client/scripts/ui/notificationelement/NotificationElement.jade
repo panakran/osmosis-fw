@@ -1,4 +1,4 @@
 .ui-notificationelement-NotificationElement(data-bind='click: topMenuClick').lfloat
-  a(class='notification')
+  a(data-bind='css: notificationNumber!==0?"notification":"disabled"')
     span(data-bind='css: iconClass')
-    span(class="badge", data-bind='text: notificationNumber')
+    span(data-bind='text: notificationNumber, css: notificationNumber!==0?"badge":"nobadge"')

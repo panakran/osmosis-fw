@@ -5,9 +5,8 @@ function Breadcrumb(bind, args) {
   }
   
   
-  Breadcrumb.prototype.clickMenu = function () {
-      console.log("ds", this);
-    // alert(`${this.breadCrumbs} button clicked`);
+  Breadcrumb.prototype.breadCrumClick = function () {
+    alert(`${this.text} clicked`);
   }
   
 module.exports = Breadcrumb;
